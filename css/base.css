@@ -1,0 +1,39 @@
+:root{
+    --background-color:#F3F3F3;
+    --primary-color-bar:#3D5C57;
+    --footer-color:#283E3A;
+    --header-link-color:#F3F3F3;
+    --DM-font:"Cardo", serif;
+    --Cur-front: "Vibur", cursive;
+
+
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    background-color: var(--background-color);
+    font-family: var(--DM-font);
+} 
+
+h1 {
+    font-size: 2rem;
+}
+
+h2{
+    color: var(--background-color);
+    font-family: var(--Cur-front);
+    font-size:1.6rem;
+}
+
+.center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
