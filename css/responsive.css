@@ -8,7 +8,7 @@
         flex-direction:column;
 
     }
-    .nav-option{
+    /* .nav-option{
         background-color:var(--primary-color-bar);
         margin-top:0.5rem;
         position: fixed;
@@ -22,16 +22,16 @@
         z-index: 100;;
         transition: all 0.1s ease-in-out;
 
-    }
-    .nav-option a{
+    } */
+    /* .nav-option a{
         border-bottom: sold 2px white;
     }
     .h-menu{
         display:block;
     }
-    /* .h-menu-close{
+    .h-menu-close{
         display:none;
-    } */
+    } 
     #check:checked ~ .header-right-side .h-menu{
         display:none;
     }
@@ -41,7 +41,43 @@
 
     #check:checked ~ .header-right-side .nav-option {
         right: 0; 
+    } */
+    .nav-options a{
+        height:max-content;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+
+    } 
+
+    .nav-btn{
+        display:inline-flex;
     }
+
+    nav{
+        width:100%;
+    }
+
+    .headre-left-side{
+        width:100%;
+    }
+
+    .header-right-side{
+        width:100%;
+        align-items:baseline; 
+        /* to ensure the align on the x-aixs*/
+    } 
+        
+   /* toggle function -> ~ */ 
+    #nav-check:not(:checked) ~.nav-options{
+        overflow:hidden;
+        height:0px;
+    }
+    
+    #nav-check:checked~.nav-options{
+        height:auto;
+        overflow:auto;
+    } 
 
 
 
