@@ -28,7 +28,9 @@ header{
 }
 
 .nav-options a:hover{
+    text-decoration: none;
     border-bottom:solid 2px white;
+    color: white;
     transition: 0.15s ease-in-out;
 }
 
