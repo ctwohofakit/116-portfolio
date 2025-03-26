@@ -58,6 +58,7 @@ h2{
     display: flex;
     align-items: center;
     width:30%;
+    
 }
 
 .hero-image img{
@@ -66,6 +67,7 @@ h2{
     object-fit: cover;
     border-radius: 50%;
 }
+
 
 .intro-section{
     width:60%;
@@ -102,5 +104,7 @@ button{
 
 .btn:hover {
     background: var(--primary-color-bar);
+    transform: scale(1.05);
+    filter: drop-shadow(0px 10px 20px rgba(97, 99, 99, 0.5));
     background: linear-gradient(35deg, #283E3A 0%, #71e6d0 100%);
 }
