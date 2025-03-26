@@ -23,6 +23,7 @@ html {
     font-family: var(--DM-font);
 } 
 
+
 h1 {
     font-size: 2rem;
 }
@@ -39,9 +40,67 @@ h2{
     align-items: center;
 }
 
-.profile{
-    border-radius:50%;
-    width:100px;
-    height:100px;
-    overflow:hidden;
+.hero-section{
+    background-color: var(--background-color);
+    display:flex;
+    padding:2% 5% 2% 10%;
+    /* gap:5px; */
+}
+
+.intro-header{
+    text-align: center;
+    color:#283E3A;
+    font-size:23px;
+    font-weight: bold;
+}
+
+.hero-image{
+    display: flex;
+    align-items: center;
+    width:30%;
+}
+
+.hero-image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.intro-section{
+    width:60%;
+}
+.intro-section h3{
+    padding: 1% 0 0 0;
+    color:#283E3A;
+    font-size: 18px;
+    text-align: center;
+}
+.intro-section p{
+    padding: 1% 0 0 0;
+
+}
+
+.skill-labels{
+    display: flex;
+    justify-content: center;
+    padding:1% 0 0% 0;
+    gap:3%;
+}
+button{
+    width: 60px;
+    height: 40px;
+    background-color: var(--footer-color);
+    color: #fff;
+    border-radius: 2px;
+    border:0;
+    padding: 10px 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: var(--primary-color-bar);
+    background: linear-gradient(35deg, #283E3A 0%, #71e6d0 100%);
 }
