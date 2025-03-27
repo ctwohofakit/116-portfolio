@@ -85,26 +85,73 @@ h2{
 
 .skill-labels{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding:1% 0 0% 0;
-    gap:3%;
+    padding:0.5rem;
+    gap:1rem;
 }
-button{
-    width: 60px;
-    height: 40px;
+.sk{
     background-color: var(--footer-color);
     color: #fff;
     border-radius: 2px;
     border:0;
-    padding: 10px 10px;
+    padding:1rem;
+    margin:0.3rem 0px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-.btn:hover {
+.sk:hover {
     background: var(--primary-color-bar);
     transform: scale(1.05);
-    filter: drop-shadow(0px 10px 20px rgba(97, 99, 99, 0.5));
     background: linear-gradient(35deg, #283E3A 0%, #71e6d0 100%);
+}
+
+.project-head{
+    color: var( --footer-color);
+    padding:2% 2% 0 3%;
+    text-align: center;
+    font-size: 23;
+}
+
+.project-section{
+    padding:1% 10% 2% 10%;
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.project-card{
+    padding:1% 0 0 0;
+    border: #283E3A;
+    width: 100%;
+    border-radius: 0.3rem;
+    border-width: 4px 4px 4px 4px; 
+    filter: drop-shadow(5px 5px 5px rgba(34, 54, 47, 0.5));
+}
+.project-card:hover{
+    transform: scale(1.05);
+}
+
+.project-card h3, p, h4{
+    padding:1% 1% 0 1%;
+
+}
+
+.project-img{
+    width:100%;
+}
+.project-img img{
+    width:100%;
+    border-radius: 1rem;
+}
+
+.sk-project-tag{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0.5rem;
+    gap:1rem;
+
 }
