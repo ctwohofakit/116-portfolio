@@ -148,6 +148,18 @@ h2{
     border-radius: 1rem;
 }
 
+.gif-image{
+    display: none;
+}
+.project-img:hover .static-image {
+    display: none;
+}
+
+.project-img:hover .gif-image {
+    display: block;
+}
+
+
 .sk-project-tag{
     display: flex;
     flex-wrap: wrap;
