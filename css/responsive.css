@@ -132,6 +132,7 @@
     .intro-section p{
         padding: 1% 0 0 0;
         width:100%;
+        text-align: left;
     
     }
     
@@ -167,6 +168,9 @@
         background: transparent;
         border-width: 4px 4px 4px 4px; 
         filter: drop-shadow(5px 5px 5px rgba(34, 54, 47, 0.5));
+    }
+    .contact-form{
+        width:70%;
     }
 
 
@@ -268,6 +272,10 @@
         padding:1% 0 0% 0;
         gap:3%;
     }
+    .contact-form{
+        width:80%;
+    }
+
 
 
 

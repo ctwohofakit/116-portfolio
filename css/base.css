@@ -135,11 +135,15 @@ h2{
     transform: scale(1.05);
 }
 
-.project-card h3, p, h4{
-    padding:1% 1% 0 1%;
-
+.project-card h3, h4{
+    padding:1% 1% 2% 1%;
 }
 
+p{
+    padding:1% 1% 0 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
 .project-img{
     width:100%;
 }
@@ -166,4 +170,65 @@ h2{
     padding:0.5rem;
     gap:1rem;
 
+}
+
+.contact{
+    padding:1% 0 1% 0;
+    text-align: center;
+}
+
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #D9D9D9;
+    width:20%;
+    padding: 1% 2% 1% 2%;
+    display: flex;
+    flex-direction: column;
+    color: #B67272;
+}
+
+
+
+.contact-form label{
+    padding: 2% 2% 2% 2%;
+}
+
+.contact-form input{
+    height:1.5rem;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: #B67272;
+    border-bottom-width: 0.2rem;
+    background-color: var(--background-color);
+}
+
+.contact-form input:focus{
+    outline:none;
+}
+
+
+.contact-btns{
+    padding: 4% 1% 2% 1%;
+    text-align: center;
+
+}
+.contact-btns button{
+    padding: 2% 2% 2% 2%;
+    background-color: #B67272;
+    border-radius: 5%;
+    color:white;
+    border-color: #B67272;
+    text-align: center;
+    margin-right:5%;
+}
+
+.contact-btns button:hover{
+    transform: scale(1.05);
+    background: linear-gradient(35deg, #c25151 0%, #ca9999 100%);
 }
